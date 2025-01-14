@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center justify-center mt-56 "> <!-- Placering på min search bar -->
+    <div class="flex items-center justify-center mt-36 "> <!-- Placering på min search bar -->
       <form class="relative w-5/6 max-w-lg "> <!-- Bredde på min search bar -->
 
           <!--Mit loop ikon-->
