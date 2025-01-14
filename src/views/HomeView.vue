@@ -14,6 +14,7 @@ import Header from '@/components/Header.vue'; // Adjust path as needed
     <Header></Header>
 
     <div class="absolute pl-10 font-Biryani">
+      
       <h3 class="text-xs">Godt at se dig igen</h3>
       <h1 class="text-4xl">Rikke Hjort!</h1>
     </div>
