@@ -32,7 +32,7 @@ import myImage from '@/assets/pics/user.png'; // Adjust the path accordingly
   width: 100%; /* Ensure full width of the screen */
   align-items: center; /* Vertically center the content */
   padding: 1rem; /* Optional padding */
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 /* Styling for the dots */

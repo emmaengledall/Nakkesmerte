@@ -13,8 +13,8 @@ import Header from '@/components/Header.vue'; // Adjust path as needed
   <div> 
     <Header></Header>
 
-    <div class="pl-10">
-      <h3 class="text-s">Godt at se dig igen</h3>
+    <div class="pl-10 font-Biryani">
+      <h3 class="text-xs">Godt at se dig igen</h3>
       <h1 class="text-4xl">Rikke Hjort!</h1>
     </div>
 
