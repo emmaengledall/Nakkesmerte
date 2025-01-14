@@ -38,6 +38,4 @@ import { RouterLink, RouterView } from 'vue-router'
   height: 100vh; /* Full viewport height */
 }
 
-
-
 </style>
