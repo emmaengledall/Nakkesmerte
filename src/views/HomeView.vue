@@ -1,7 +1,8 @@
 <script setup>
 import SearchBar from '@/components/SearchBar.vue'; // Adjust path as needed 
 import MainButton from '@/components/MainButton.vue'; 
-import Header from '@/components/Header.vue'; // Adjust path as needed 
+import Header from '@/components/Header.vue'; 
+import Points from '@/components/Points.vue'; 
 
 </script>
 
@@ -11,14 +12,12 @@ import Header from '@/components/Header.vue'; // Adjust path as needed
 
 
   <div> 
-    <Header></Header>
-
-    <div class="absolute pl-10 font-Biryani">
-      
-      <h3 class="text-xs">Godt at se dig igen</h3>
-      <h1 class="text-4xl">Rikke Hjort!</h1>
+    <Header class="mt-10"></Header>
+    <div class="absolute pl-10 font-Biryani"> 
+      <h3 class="text-xs font-extralight leading-6">Godt at se dig igen</h3>
+      <h1 class="text-4xl font-light">Rikke Hjort!</h1>
     </div>
-
+    <Points></Points>
     <SearchBar />
     <MainButton /> 
   </div>

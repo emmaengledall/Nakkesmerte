@@ -14,7 +14,7 @@ import myImage from '@/assets/pics/user.png'; // Adjust the path accordingly
         <span class="dot"></span>
         <span class="dot"></span>
       </span>
-    </div>
+    </div> 
 
     <!-- Right side with PNG -->
     <div class="image-container flex justify-end items-center">
