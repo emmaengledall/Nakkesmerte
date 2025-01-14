@@ -1,6 +1,6 @@
 <template>
-    <div class="flex items-center justify-center mt-72 "> <!-- Placering på min search bar -->
-      <form class="relative w-80 max-w-lg "> <!-- Bredde på min search bar -->
+    <div class="flex items-center justify-center mt-56 "> <!-- Placering på min search bar -->
+      <form class="relative w-5/6 max-w-lg "> <!-- Bredde på min search bar -->
 
           <!--Mit loop ikon-->
         <button class="absolute right-3 -translate-y-1/2 top-1/2 p-1">

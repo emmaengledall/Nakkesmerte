@@ -1,3 +1,10 @@
 	@tailwind base;
 	@tailwind components;
   	@tailwind utilities;
+
+	  @font-face {
+		font-family: 'Biryani';
+		src: url('src/assets/fonts/Biryani/Biryani-ExtraLight.ttf') format('ttf');
+		/* Add other font formats if needed */
+	  }
+  
