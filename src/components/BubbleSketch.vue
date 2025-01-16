@@ -142,8 +142,6 @@
 
   .p5Canvas {
     border-radius: 40px;
-    border-color: black;
-    border-width: 1px;
   }
 
   .sketch-container {
