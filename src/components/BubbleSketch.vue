@@ -1,6 +1,6 @@
 <template>
-    <div class="bubble-sketch rounded-3xl">
-      <div ref="sketchContainer" class=""></div> <!-- This will hold the p5.js canvas -->
+    <div class="bubble-sketch rounded-3xl flex">
+      <div ref="sketchContainer" class="sketch-container"></div> <!-- This will hold the p5.js canvas -->
     </div>
   </template>
   
@@ -135,23 +135,18 @@
     position: relative;
     width: 100%;
     height: 100%;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    align-self: center;
-
     margin-top: 82px;
     padding-top: 96px;
+    justify-content: center;
   }
 
   .p5Canvas {
     border-radius: 40px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    align-self: center;
+    border-color: black;
+    border-width: 1px;
+  }
+
+  .sketch-container {
   }
   </style>
   
