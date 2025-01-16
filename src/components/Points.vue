@@ -15,9 +15,9 @@
 
     <div>
          <!-- Streak Circle -->
-      <div class="circless text-white">
+      <!-- <div class="circless text-white">
         <p class="font-extralight">21 dage <br> streak!</p>
-      </div>
+      </div> -->
 
     </div> 
 

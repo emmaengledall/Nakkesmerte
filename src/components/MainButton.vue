@@ -21,7 +21,8 @@
     <div class="grid grid-cols-2 grid-rows-2 gap-4 pt-10 items-center justify-center place-items-center font-extralight text-s">
 
     <div class="pl-5 ">
-        <button class="shadow-md">Øvelser</button> 
+        <button class="shadow-md">
+          Øvelser</button> 
     </div>
 
     <RouterLink to="/about">
