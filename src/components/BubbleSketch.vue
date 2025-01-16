@@ -139,12 +139,19 @@
     align-content: center;
     justify-content: center;
     justify-items: center;
+    align-self: center;
+
     margin-top: 82px;
     padding-top: 96px;
   }
 
   .p5Canvas {
     border-radius: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
   }
   </style>
   
