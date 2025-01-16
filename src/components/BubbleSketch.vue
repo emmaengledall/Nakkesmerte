@@ -1,6 +1,6 @@
 <template>
-    <div class="bubble-sketch">
-      <div ref="sketchContainer"></div> <!-- This will hold the p5.js canvas -->
+    <div class="bubble-sketch rounded-3xl">
+      <div ref="sketchContainer" class=""></div> <!-- This will hold the p5.js canvas -->
     </div>
   </template>
   
@@ -130,7 +130,7 @@
   }
   </script>
   
-  <style scoped>
+  <style>
   .bubble-sketch {
     position: relative;
     width: 100%;
@@ -141,6 +141,10 @@
     justify-items: center;
     margin-top: 82px;
     padding-top: 96px;
+  }
+
+  .p5Canvas {
+    border-radius: 40px;
   }
   </style>
   
