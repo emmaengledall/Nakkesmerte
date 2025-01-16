@@ -32,7 +32,7 @@ import Bobler from '@/components/BubbleSketch.vue';
           <br>Pop dem for få dine point </h3>
     </div>
     <Points></Points>
-    <Bobler class="pl-10 pt-40"></Bobler>
+    <Bobler class=""></Bobler>
    
   </div>
 

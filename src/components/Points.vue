@@ -13,14 +13,11 @@
     </div>
 
 
-    <div>
+    <div class="circless">
          <!-- Streak Circle -->
-      <!-- <div class="circless text-white">
-        <p class="font-extralight">21 dage <br> streak!</p>
-      </div> -->
+     
 
-    </div> 
-
+    </div>
   </template>
   
 
@@ -86,7 +83,9 @@
   transition: background-color 0.3s ease;
 }
 
-
+#storCirkel {
+    
+}
 
 
 

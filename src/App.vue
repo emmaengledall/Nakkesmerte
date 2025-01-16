@@ -1,5 +1,9 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+
+
+
+
 // import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -8,6 +12,10 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="bg">
   
   <header>
+    <div>
+    <BubbleSketch :incrementPoint="incrementPoints" />
+    <p> {{ points }}</p> <!-- Display points -->
+  </div>
     
 
     <div class="wrapper">

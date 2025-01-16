@@ -29,9 +29,9 @@
           for (let i = 0; i < 10; i++) {
             let x, y, radius;
             do {
-              radius = p.random(30, 70);
-              x = p.random(10 + radius, 390 - radius);
-              y = p.random(10 + radius, 690 - radius);
+              radius = p.random(30, 50);
+              x = p.random(10 + radius, 300 - radius);
+              y = p.random(10 + radius, 500 - radius);
             } while (!isInsideRectangle(x, y, radius));
   
             bubbles.push({ x, y, radius });
@@ -40,7 +40,7 @@
         };
   
         p.draw = function() {
-          p.background(32);
+          p.background(32, 0);
           rectangle();
   
           // Check if there are no bubbles left
@@ -88,8 +88,8 @@
             noiseOffset.yOff += 0.01;
   
             // Keep bubble inside the rectangle bounds
-            bubble.x = p.constrain(bubble.x, 10 + bubble.radius, 390 - bubble.radius);
-            bubble.y = p.constrain(bubble.y, 10 + bubble.radius, 690 - bubble.radius);
+            bubble.x = p.constrain(bubble.x, 10 + bubble.radius, 290 - bubble.radius); // Fix the right boundary
+            bubble.y = p.constrain(bubble.y, 10 + bubble.radius, 490 - bubble.radius); // Fix the bottom boundary
           }
         };
   
@@ -100,7 +100,7 @@
         }
   
         function isInsideRectangle(x, y, radius) {
-          return x - radius >= 10 && x + radius <= 390 && y - radius >= 10 && y + radius <= 690;
+          return x - radius >= 0 && x + radius <= 300 && y - radius >= 0 && y + radius <= 500;
         }
   
         // Function to display a message when no bubbles are left
@@ -119,14 +119,15 @@
   
             p.fill(129, 176, 255, alpha); // Blue color with varying opacity
             p.ellipse(x, y, radius * 2 + radiusOffset);
-          }
+          };
   
-          p.fill(255, 255, 255, 255); // Light white/opaque for the shiny spot
+          p.fill(255, 255, 255); // Light white/opaque for the shiny spot
           p.ellipse(x - radius / 2, y - radius / 4, radius / 3, radius / 2); // Highlight in the top-left corner
         }
       }
     }
-  };
+
+  }
   </script>
   
   <style scoped>
@@ -134,6 +135,12 @@
     position: relative;
     width: 100%;
     height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 82px;
+    padding-top: 96px;
   }
   </style>
   
