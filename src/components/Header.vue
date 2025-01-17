@@ -3,7 +3,7 @@ import myImage from '@/assets/pics/user.png'; // Adjust the path accordingly
 </script>
 
 <template>
-  <header class="header grid grid-cols-2 w-full p-4">
+  <header class="header grid grid-cols-2 w-full">
     <!-- Left side with dots -->
     <div class="dots-container flex justify-start items-center">
       <span class="row">
@@ -32,7 +32,7 @@ import myImage from '@/assets/pics/user.png'; // Adjust the path accordingly
   width: 100%; /* Ensure full width of the screen */
   align-items: center; /* Vertically center the content */
   padding: 1rem; /* Optional padding */
-  /* margin-top: 2rem; */
+  
 }
 
 /* Styling for the dots */

@@ -22,7 +22,7 @@ import { RouterLink, RouterView } from 'vue-router'
       
 
       <nav>
-        <RouterLink to="/"></RouterLink>
+      
         <RouterLink to="/about"></RouterLink>
         <RouterLink to="/login"></RouterLink>
 

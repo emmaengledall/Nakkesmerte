@@ -2,6 +2,7 @@
 import Header from '@/components/Header.vue'; 
 import Points from '@/components/Points.vue'; 
 import Bobler from '@/components/BubbleSketch.vue'; 
+import backImage from '@/assets/pics/arrows.png'; // Adjust the path accordingly
 
 </script>
 
@@ -25,6 +26,13 @@ import Bobler from '@/components/BubbleSketch.vue';
 
   <div> 
     <Header class=""></Header>
+
+    <RouterLink to="/">
+    <div class="image-container absolute flex justify-start items-center pl-4 z-50">
+      <img :src="backImage" alt="Description of the image" class="w-5 h-5"/>
+    </div>
+  </RouterLink>
+
     <div class="absolute pl-10 font-Biryani"> 
       <h3 class="text-xs font-extralight leading-6">Score du på din lave</h3>
       <h1 class="text-4xl font-light">skærmtid?</h1>
