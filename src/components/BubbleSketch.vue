@@ -1,5 +1,5 @@
 <template>
-    <div class="bubble-sketch rounded-3xl flex">
+    <div class="bubble-sketch rounded-3xl flex font-extralight">
       <div ref="sketchContainer" class="sketch-container"></div> <!-- This will hold the p5.js canvas -->
     </div>
   </template>
@@ -138,6 +138,7 @@
     margin-top: 82px;
     padding-top: 96px;
     justify-content: center;
+    
   }
 
   .p5Canvas {

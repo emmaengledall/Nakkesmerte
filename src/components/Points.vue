@@ -49,8 +49,8 @@
   /* Circle Styling */
   .circle {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     /* border: 2px solid #ffffff; */
     border-radius: 50%;
     display: flex;
