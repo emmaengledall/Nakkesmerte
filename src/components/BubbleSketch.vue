@@ -135,8 +135,8 @@
     position: relative;
     width: 100%;
     height: 100%;
-    margin-top: 82px;
-    padding-top: 82px;
+    margin-top: 96px;
+    padding-top: 96px;
     justify-content: center;
     
   }
