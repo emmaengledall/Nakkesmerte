@@ -34,7 +34,7 @@ import backImage from '@/assets/pics/arrows.png'; // Adjust the path accordingly
   </RouterLink>
 
     <div class="absolute pl-10 font-Biryani"> 
-      <h3 class="text-xs font-extralight leading-6 pl-2">Score du på din lave</h3>
+      <h3 class="text-sm font-extralight leading-6 pl-2">Score du på din lave</h3>
       <h1 class="text-4xl font-light pl-2">skærmtid?</h1>
       <h3 class="font-extralight mt-16">Tillykke! Du har optjent flere friheds bobler! 
           <br>Pop dem for få dine point </h3>
