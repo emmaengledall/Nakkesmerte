@@ -25,13 +25,15 @@ import myImage from '@/assets/pics/user.png'; // Adjust the path accordingly
 
 <style scoped>
 /* Grid layout for header */
-.header {
+.header { 
 
   display: grid;
   grid-template-columns: 1fr 1fr; /* Divide the header into 2 equal parts */
   width: 100%; /* Ensure full width of the screen */
   align-items: center; /* Vertically center the content */
-  padding: 1rem; /* Optional padding */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
   
 }
 

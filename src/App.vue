@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 <template>
-  <div class="bg">
+  <div class="bg"> 
   
   <header>
     <div>
