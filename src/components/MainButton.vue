@@ -21,24 +21,34 @@
     <div class="grid grid-cols-2 grid-rows-2 gap-4 pt-10 items-center justify-center place-items-center font-extralight text-s">
 
     <div class="pl-5 ">
-        <button class="shadow-md">
+        <button class="shadow-md w-44">
           Øvelser</button> 
     </div>
 
     <RouterLink to="/about">
     <div class="pr-5">
-        <button class="shadow-md">Skærmtid</button>
+        <button class="shadow-md w-44">Skærmtid</button>
     </div>
   </RouterLink>
 
     <div class="pl-5">
-        <button class="shadow-md">Kontakt</button>
+        <button class="shadow-md w-44">Kontakt</button>
     </div>
 
     <div class="pr-5">
-        <button class="shadow-md ">Din plan</button>
+        <button class="shadow-md w-44">Din plan</button>
     </div>
 
 
 </div>
+
+
+<!-- Graf til homepage <33 -->
+<div class="p-5 mt-5">
+  
+        <button class="shadow-md w-full h-64">
+          
+        </button>
+    </div>
+
 </template>

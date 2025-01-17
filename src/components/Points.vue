@@ -51,7 +51,7 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    border: 2px solid #ffffff;
+    /* border: 2px solid #ffffff; */
     border-radius: 50%;
     display: flex;
     justify-content: center;

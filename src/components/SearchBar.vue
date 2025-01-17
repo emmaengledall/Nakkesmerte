@@ -1,14 +1,14 @@
 <template>
-    <div class="flex items-center justify-center mt-36 "> <!-- Placering på min search bar -->
-      <form class="relative w-5/6 max-w-lg "> <!-- Bredde på min search bar -->
+    <div class="flex items-center justify-center mt-36 w-full"> <!-- Placering på min search bar -->
+      <form class="relative w-full p-5 "> <!-- Bredde på min search bar -->
 
           <!--Mit loop ikon-->
-        <button class="absolute right-3 -translate-y-1/2 top-1/2 p-1">
+        <button class="absolute right-3 -translate-y-1/2 top-1/2 p-5">
           <svg
-            width="17"
-            height="16"
+            width="17" 
+            height="16" 
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="http://www.w3.org/2000/svg" 
             role="img"
             aria-labelledby="search"
             class="w-5 h-5 text-gray-700"
