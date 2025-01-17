@@ -136,7 +136,7 @@
     width: 100%;
     height: 100%;
     margin-top: 82px;
-    padding-top: 74px;
+    padding-top: 82px;
     justify-content: center;
     
   }
