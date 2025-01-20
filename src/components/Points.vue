@@ -1,40 +1,37 @@
+<script>
+
+export default {
+  props: {
+    points: {
+      type: Number,
+      required: true,
+      default: 0,
+    },
+  },
+  watch: {
+    points(newPoints) {
+      console.log('Updated points in Points.vue:', newPoints);
+    },
+  },
+};
+
+
+</script>
+
 <template>
-    <div class="circles-container pl-36">
-
-      <!-- point Circle -->
-      <div id="storCirkel" class="circle  text-white ">
-        <p class="font-extralight">
-         Points <br>
-        <span @click="incrementPoints" class="big-points text-5xl font-extralight">{{ points }}</span>
-        </p>
+  <!-- <div class="circles-container pl-36">
+    <div id="storCirkel" class="circle text-white">
+      <p class="font-extralight">
+        Points <br>
+        <span class="big-points text-5xl font-extralight">{{ points }}</span>
+      </p>
     </div>
-      <!-- Button til at updatere point -->
-      <!-- <button @click="incrementPoints">Add Point</button> -->
-    </div>
+  </div> -->
+</template>
 
 
-    <div class="circless">
-         <!-- Streak Circle -->
-     
 
-    </div>
-  </template>
   
-
-  <script>
-  export default {
-    data() {
-      return {
-        points: 0, // Reactive property for points
-      };
-    },
-    methods: {
-      incrementPoints() {
-        this.points += 1; // Increment points on button click
-      },
-    },
-  };
-  </script>
   
   <style scoped>
   .circles-container {

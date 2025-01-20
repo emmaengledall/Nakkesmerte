@@ -53,10 +53,10 @@ import myImage from '@/assets/pics/user.png'; // Adjust the path accordingly
 .dot {
 margin: 3px;
 padding: 2px;
-  width: 8px;
-  height: 8px;
-  border: 2px solid black;
-  background-color: black;
+  width: 9px;
+  height: 9px;
+  border: 2.5px solid black;
+  
   border-radius: 50%;
   transition: all 0.2s;
 }

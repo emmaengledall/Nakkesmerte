@@ -33,9 +33,9 @@
       </div>
     </RouterLink>
 
-    <div class="pl-5">
+    <div class="pl-5"> 
       <button class="shadow-md w-44 flex items-center justify-center gap-x-2">
-        <img src="/src/assets/pics/kontakt.png" alt="icon" class="h-10 w-auto pr-3" />
+        <img src="/src/assets/pics/gave.png" alt="icon" class="h-10 w-auto pr-3" />
         Kontakt
       </button>
     </div>
