@@ -89,7 +89,7 @@
 
   
       <!-- Additional content for the graph button -->
-      <p class="w-full flex items-start justify-center pt-48 font-light tracking-[0.70em] pl-5 text-lg">M T O T F L S</p>
+      <p class="w-full flex items-start justify-center pt-48 font-light tracking-[0.60em] pl-5 text-lg">M T O T F L S</p>
 
       
     </button>
