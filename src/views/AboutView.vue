@@ -25,7 +25,7 @@ function updatePoints(pointsEarned) {
   <main>
     <div> 
       <!-- Header komponent -->
-      <Header> </Header>
+      <Header class="mt-5 pb-5"> </Header>
 
       <!-- Back button -->
       <RouterLink to="/">

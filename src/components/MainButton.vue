@@ -56,8 +56,8 @@
 
     <div class="pr-5">
   <button class="shadow-md w-auto flex items-center justify-center">
-    <img src="/src/assets/pics/plan.png" alt="icon" class="h-10 w-auto pr-2" />
-    Din plan
+    <img src="/src/assets/pics/plan.png" alt="icon" class="h-10 w-auto pr-5" />
+    Program
   </button>
 </div>
 
@@ -89,7 +89,7 @@
 
   
       <!-- Additional content for the graph button -->
-      <p class="w-full flex items-start justify-start pt-48 font-light tracking-[0.70em] pl-5 text-lg">M T O T F L S</p>
+      <p class="w-full flex items-start justify-center pt-48 font-light tracking-[0.70em] pl-5 text-lg">M T O T F L S</p>
 
       
     </button>

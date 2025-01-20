@@ -13,7 +13,7 @@ import Points from '@/components/Points.vue';
 
 
   <div class=""> 
-    <Header class="mt-5"></Header>
+    <Header class="mt-5 pb-5"></Header>
     <div class="circles-container pl-36">
     <div id="storCirkel" class="circle text-white">
       <p class="font-extralight">

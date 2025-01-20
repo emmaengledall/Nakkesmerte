@@ -3,7 +3,7 @@ import myImage from '@/assets/pics/user.png'; // Adjust the path accordingly
 </script>
 
 <template>
-  <header class="header grid grid-cols-2 w-full mt-5">
+  <header class="header grid grid-cols-2 w-full">
     <!-- Left side with dots -->
     <div class="dots-container flex justify-start items-center">
       <span class="row">
