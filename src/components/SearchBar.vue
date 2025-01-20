@@ -1,9 +1,9 @@
 <template>
-    <div class="flex items-center justify-center mt-36 w-full"> <!-- Placering på min search bar -->
+    <div class="flex items-center justify-center mt-28 w-full"> <!-- Placering på min search bar -->
       <form class="relative w-full p-5 "> <!-- Bredde på min search bar -->
 
           <!--Mit loop ikon-->
-        <button class="absolute right-3 -translate-y-1/2 top-1/2 p-5">
+        <button class="absolute right-4 top-7 -translate-y-1/2 top-1/2 p-5">
           <svg
             width="17" 
             height="16" 

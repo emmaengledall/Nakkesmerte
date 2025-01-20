@@ -58,7 +58,7 @@ export default {
           if (p.dist(p.mouseX, p.mouseY, bubble.x, bubble.y) < bubble.radius) {
             if (p.mouseIsPressed) {
               console.log('Bubble clicked:', bubble); // Debugging output
-              const pointsEarned = Math.floor(p.random(5, 15)); // Random points for the bubble
+              const pointsEarned = Math.floor(p.random(1, 3)); // Random points for the bubble
               this.$emit('add-points', pointsEarned); // Emit event to parent with points
               console.log('Points emitted:', pointsEarned); // Debugging output
               bubbles.splice(i, 1); // Remove this bubble!
@@ -113,7 +113,7 @@ export default {
         p.textSize(20);
         p.textAlign(p.CENTER, p.CENTER);
         p.fill(0, 0, 0);
-        p.text("Du har ikke flere frihedsbobler!", p.width / 2, p.height / 2);
+        p.text("Hov! Der er ikke flere bobler!", p.width / 2, p.height / 2);
       }
 
       // Function to draw a shiny bubble with a highlight
