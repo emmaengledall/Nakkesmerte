@@ -7,7 +7,7 @@ import backImage from '@/assets/pics/arrows.png'; // Juster stien hvis nødvendi
 import { ref } from 'vue'; // Import af `ref` til reaktive variabler
 
 // Reactive points variable
-const points = ref(0);
+const points = ref(22);
 
 
 
